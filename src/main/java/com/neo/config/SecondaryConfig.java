@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import javax.persistence.EntityManager;
 import javax.sql.DataSource;
 import java.util.Map;
-
+//sssssssssssssssssss
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
@@ -38,6 +38,8 @@ public class SecondaryConfig {
                 .properties(vendorProperties)
                 .packages("com.neo.model")
                 .persistenceUnit("secondaryPersistenceUnit")
+
+
                 .build();
     }
 
